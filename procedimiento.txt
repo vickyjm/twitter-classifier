@@ -1,0 +1,45 @@
+http://gallery.cortanaanalytics.com/Experiment/Binary-Classification-Twitter-sentiment-analysis-4?share=1
+https://blog.twitter.com/2015/guest-post-understanding-users-through-twitter-data-and-machine-learning
+
+En estos dos links hay "pasos" para clasificar gente en twitter. No es especifico de clasificaciones politicas, pero
+me imagino que lo podemos adaptar.
+
+En el primer link los pasos son :
+1. Get Data (Tenemos los usuarios,en nuestro caso falta sacar los tweets)
+2. Text preprocessing using R. (Quitan signos de puntuacion y otras cosas para limpiar el texto
+								y lo ponen todo en minuscula)
+3. Feature engineering. (Eligen las features a usar. Usan chi-squared para rankear las features y 
+						 retornan las primeras 20.000)
+4. Split data into training and test.
+5. Train prediction model.
+6. Evaluate model performance.
+7. Publish prediction web service.
+
+Del segundo link : (Este no clasifica gente sino tweets realmente. No parece que entrenen ni nada. Solo sacan la info)
+1. Gather data. (Profile info, tweets, favorites, etc)
+2. Analyze the text to filter on language and assign topic categories. (Pasan todo al ingles y le asignan topicos a cada
+																		tweet)
+3. Create visualizacions. (Crean graficas con matplotlib). 
+
+Otro linkimportante es : http://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html 
+Siento que podria aplicarse a nuestro proyecto.
+
+
+-------------------------------------------------------------
+
+1. Encontrar los features. Separando usuarios por documento. Un documento = Un usuario.
+
+2. Sacar los topicos de ese set de documentos (usuarios).
+
+3. A cada usuario asignarle sus features a partir de la info sacada de los documentos. (ver link de feature selection en infoPapers.txt)
+
+4. Teniendo esto ya se puede usar un algoritmo clasificador.
+
+NOTA : Para testing no se corre LDA de nuevo. Se agarran uno a uno los tweets y se comparan con los topicos obtenidos en LDA y de ahi se
+saca el topico del tweet. (Con cosas locas de las cuales no estamos claros aun)
+
+VICKY:
+- EL TfidVectorizer permite eliminar los acentos de las palabras. Con esto se puede filtrar que las personas escriban mal y asi poder
+dejar uniformes todos los tuits (todos sin acentos)
+
+

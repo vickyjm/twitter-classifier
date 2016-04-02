@@ -1,0 +1,19 @@
+Ejecución con T = 10
+5 palabras por tópico
+Exactitud:  0.7628333333333334
+Matriz de confusión:
+210.0 48.7
+93.6 247.7
+
+10 palabras por tópico
+Exactitud:  0.7393333333333334
+Matriz de confusión:
+206.5 70.0
+86.4 237.1
+
+20 palabras por tópico
+Exactitud:  0.748
+Matriz de confusión:
+188.8 32.3
+118.9 260.0
+

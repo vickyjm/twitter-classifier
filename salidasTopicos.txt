@@ -1,0 +1,46 @@
+5 palabras por tópico
+
+Ejecución con T = 5
+Exactitud:  0.7531666666666667
+Matriz de confusión:
+209.9 59.2
+88.9 242.0
+
+Tópicos:
+[['venezuela', 'maduro', 'pais', 'gobierno', 'hay'], ['gracias', 'dios', 'hay', 'via', 'dias'], ['nicolasmaduro', 'via', 'chavez', 'venezuela', 'pueblo'], ['hoy', 'dia', 'anos', 'son', 'nacional'], ['pueblo', 'venezolanos', 'hoy', 'gobierno', 'pais']]
+
+Ejecución con T = 10
+Exactitud:  0.7676666666666667
+Matriz de confusión:
+207.5 49.4
+90.0 253.1
+
+Tópicos:
+[['maduro', 'venezuela', 'pais', 'gobierno', 'presidente'], ['pueblo', 'chavez', 'dios', 'gobierno', 'venezolano'], ['via', 'video', 'hoy', 'venezuela', 'gobierno'], ['nicolasmaduro', 'chavez', 'presidente', 'son', 'nacional'], ['hoy', 'presidente', 'ahora', 'venezuela', 'venezolano'], ['gracias', 'dios', 'venezuela', 'dias', 'son'], ['venezolanos', 'pueblo', 'hoy', 'pais', 'hay'], ['hay', 'dia', 'vida', 'hoy', 'nacional'], ['venezolano', 'hay', 'dia', 'vida', 'sera'], ['venezuela', 'video', 'gobierno', 'maduro', 'pais']]
+
+Ejecución con T = 20
+Exactitud:  0.7969999999999999
+Matriz de confusión:
+214.8 41.3
+80.5 263.4
+
+Tópicos:
+[['maduro', 'gobierno', 'ahora', 'venezuela', 'pais'], ['vida', 'via', 'sera', 'dios', 'pueblo'], ['son', 'venezolano', 'dia', 'via', 'pais'], ['dia', 'hoy', 'venezolanos', 'vida', 'anos'], ['venezolanos', 'hoy', 'pais', 'presidente', 'pueblo'], ['gracias', 'venezuela', 'hoy', 'dias', 'dia'], ['pueblo', 'hoy', 'maduro', 'venezuela', 'venezolanos'], ['nacional', 'dia', 'hoy', 'gobierno', 'hay'], ['dias', 'venezuela', 'sera', 'anos', 'son'], ['venezuela', 'pais', 'gobierno', 'hay', 'pueblo'], ['video', 'via', 'venezuela', 'maduro', 'hoy'], ['maduro', 'venezuela', 'chavez', 'presidente', 'pais'], ['hay', 'venezuela', 'ahora', 'dios', 'dia'], ['hoy', 'venezolanos', 'dia', 'gracias', 'venezuela'], ['venezolano', 'gobierno', 'video', 'hay', 'dia'], ['via', 'gobierno', 'venezuela', 'hoy', 'pais'], ['anos', 'hoy', 'ahora', 'gobierno', 'maduro'], ['pais', 'hoy', 'venezuela', 'vida', 'hay'], ['vida', 'dios', 'dia', 'hoy', 'pais'], ['nicolasmaduro', 'chavez', 'hoy', 'presidente', 'pueblo']]
+
+Ejecución con T = 30
+Exactitud:  0.7665
+Matriz de confusión:
+204.2 47.9
+92.2 255.7
+
+Tópicos:
+[['gobierno', 'maduro', 'venezuela', 'pais', 'ahora'], ['gracias', 'son', 'hay', 'anos', 'venezuela'], ['hoy', 'dia', 'video', 'dios', 'nacional'], ['vida', 'dia', 'hoy', 'dias', 'video'], ['pueblo', 'gobierno', 'vida', 'venezuela', 'pais'], ['venezuela', 'hay', 'dias', 'pais', 'gracias'], ['venezolanos', 'hoy', 'pueblo', 'pais', 'dia'], ['dia', 'maduro', 'hay', 'pais', 'venezuela'], ['chavez', 'sera', 'vida', 'pueblo', 'anos'], ['venezuela', 'venezolano', 'via', 'vida', 'son'], ['video', 'ahora', 'maduro', 'venezuela', 'gobierno'], ['maduro', 'chavez', 'venezuela', 'presidente', 'nacional'], ['dios', 'venezuela', 'dia', 'gracias', 'sera'], ['via', 'venezuela', 'hoy', 'son', 'nacional'], ['nicolasmaduro', 'chavez', 'presidente', 'pueblo', 'venezuela'], ['via', 'venezuela', 'maduro', 'hay', 'hoy'], ['hoy', 'son', 'anos', 'pais', 'ahora'], ['chavez', 'pais', 'venezolano', 'presidente', 'dias'], ['vida', 'dios', 'hoy', 'dias', 'pais'], ['anos', 'hoy', 'venezuela', 'dia', 'nacional'], ['hay', 'dios', 'maduro', 'pueblo', 'dias'], ['pueblo', 'venezuela', 'maduro', 'pais', 'gobierno'], ['dia', 'hay', 'maduro', 'venezuela', 'dios'], ['dia', 'son', 'hay', 'gobierno', 'vida'], ['pais', 'hoy', 'hay', 'presidente', 'nacional'], ['venezuela', 'hoy', 'maduro', 'hay', 'dia'], ['sera', 'hoy', 'venezuela', 'dia', 'gobierno'], ['dias', 'gobierno', 'via', 'hoy', 'venezolano'], ['via', 'video', 'venezolano', 'venezuela', 'venezolanos'], ['ahora', 'son', 'sera', 'dias', 'hoy']]
+
+Ejecución con T = 50
+Exactitud:  0.7811666666666667
+Matriz de confusión:
+210.0 44.0
+87.3 258.7
+
+Tópicos:
+[['presidente', 'maduro', 'venezuela', 'pais', 'gobierno'], ['via', 'presidente', 'vida', 'pais', 'gracias'], ['via', 'venezuela', 'maduro', 'dia', 'ahora'], ['dia', 'maduro', 'anos', 'hoy', 'vida'], ['venezuela', 'video', 'presidente', 'venezolano', 'venezolanos'], ['venezuela', 'dias', 'via', 'ahora', 'vida'], ['maduro', 'venezuela', 'son', 'nacional', 'ahora'], ['nacional', 'via', 'vida', 'hay', 'anos'], ['chavez', 'sera', 'vida', 'pueblo', 'anos'], ['son', 'vida', 'pais', 'pueblo', 'via'], ['video', 'via', 'venezuela', 'nacional', 'gracias'], ['maduro', 'venezolano', 'venezuela', 'pueblo', 'venezolanos'], ['gracias', 'dios', 'vida', 'dia', 'venezuela'], ['via', 'venezuela', 'hoy', 'son', 'nacional'], ['anos', 'maduro', 'hay', 'nacional', 'venezolano'], ['nicolasmaduro', 'presidente', 'son', 'pais', 'chavez'], ['maduro', 'gracias', 'vida', 'pais', 'video'], ['via', 'chavez', 'dios', 'venezuela', 'pais'], ['dias', 'maduro', 'sera', 'pais', 'vida'], ['nacional', 'nicolasmaduro', 'gracias', 'hoy', 'anos'], ['dios', 'dia', 'hay', 'via', 'vida'], ['chavez', 'pueblo', 'venezuela', 'maduro', 'hoy'], ['hay', 'maduro', 'son', 'dia', 'pueblo'], ['son', 'dia', 'presidente', 'dias', 'anos'], ['vida', 'venezolano', 'hoy', 'via', 'son'], ['dia', 'gobierno', 'son', 'dias', 'venezuela'], ['pais', 'venezuela', 'gobierno', 'hay', 'maduro'], ['nicolasmaduro', 'chavez', 'via', 'venezolanos', 'pueblo'], ['video', 'ahora', 'anos', 'pais', 'hay'], ['maduro', 'gobierno', 'hoy', 'son', 'via'], ['venezuela', 'maduro', 'pais', 'hoy', 'hay'], ['via', 'venezuela', 'pais', 'hoy', 'maduro'], ['dia', 'son', 'gracias', 'pais', 'venezuela'], ['pais', 'gobierno', 'ahora', 'chavez', 'maduro'], ['anos', 'via', 'maduro', 'vida', 'chavez'], ['ahora', 'hay', 'maduro', 'pais', 'venezuela'], ['dias', 'sera', 'venezolanos', 'gobierno', 'vida'], ['pueblo', 'venezuela', 'hoy', 'pais', 'hay'], ['venezolanos', 'hoy', 'pais', 'pueblo', 'nacional'], ['hoy', 'pueblo', 'venezuela', 'gracias', 'venezolanos'], ['venezuela', 'hoy', 'via', 'gracias', 'venezolano'], ['gobierno', 'pueblo', 'hoy', 'ahora', 'son'], ['hoy', 'anos', 'son', 'pais', 'venezuela'], ['ahora', 'hay', 'venezuela', 'maduro', 'pais'], ['hoy', 'venezuela', 'gobierno', 'gracias', 'pueblo'], ['dias', 'sera', 'hoy', 'dios', 'dia'], ['ahora', 'venezuela', 'hoy', 'dia', 'sera'], ['hay', 'gracias', 'venezolano', 'venezuela', 'via'], ['hay', 'son', 'venezuela', 'vida', 'dia'], ['pais', 'venezuela', 'hay', 'ahora', 'gobierno']]

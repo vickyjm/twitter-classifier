@@ -1,0 +1,33 @@
+http://terrierteam.dcs.gla.ac.uk/publications/fang2015sigir.pdf
+Topic-centric Classification. Universidad de Glasgow, UK.
+
+-Analizan usuarios de twitter para determinar si están en contra o a favor de la separación de Escocia del Reino Unido (Referendum).
+-Usan una Topic-Based Naive Bayesian. (Es un algoritmo que se basa en el teorema de bayes de proba).
+-Primero detectan tópicos con otro algoritmo. Estas son como palabras claves con las que pueden determinar dependiendo de cómo la usen
+si el usuario está a favor o en contra (tipo el ejemplo que hizo caromar una vez de palabras claves para detectar a un chavista).
+-Para cada tópico crean una tabla de probabilidades, donde cada uno de los features tiene asociadas dos probabilidades condicionales
+relacionadas a las intenciones de voto. 
+-Durante el entrenamiento se producen tantas tablas de features como el número de tuits usados por usuario.
+-En el proceso de prueba usan a los usuarios como "documentos virtuales". Es como si metieran en un archivo todos los tuits de un usuario
+y para cada tuit se selecciona el tópico más cercano al contenido del tuit seleccionado.
+-Ponen el algoritmo del clasificador y en este otro paper está el de los tópicos (creo que se puede hacer con uno de los links que nos dio caromar) 
+Paper de los tópicos: https://www.cs.princeton.edu/~blei/papers/BleiNgJordan2003.pdf (El algoritmo utilizado está en una de las librerías que nos dio caromar)
+
+
+http://cnets.indiana.edu/wp-content/uploads/conover_prediction_socialcom_pdfexpress_ok_version.pdf
+Predicting the Political Alignment of Twitter Users.
+
+-Meten en una matriz todos los features de todos los usuarios.
+-Usan SVM como clasificador. Este algoritmo agarra todos los features e intenta encontrar el mejor hiperplano que separe los datos.
+-Plantean varias soluciones:
+	-> Análisis de contenido: es como el paper anterior pero usando otras técnicas para procesar los tuits (eliminan hashtags,urls, menciones)
+	-> Análisis de las redes: se olvidan del contenido de todos los tuits de los usuarios y se centran en los RT's. Con los RT's de cada usuario
+	pueden ver con quién está "conectado" y hacen algo tipo clustering y luego usan clasificación.
+
+
+
+https://www.aaai.org/ocs/index.php/ICWSM/ICWSM13/paper/viewFile/6128/6347 (Otro paper que hace más o menos lo mismo. Dividen los sets de datos en políticos, gente que dice explícitamente su posición y gente que ocasionalmente tuitea algo sobre su posición)
+
+http://airccse.org/journal/mlaij/papers/2215mlaij01.pdf (Para feature selection)
+
+
